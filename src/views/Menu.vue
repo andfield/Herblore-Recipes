@@ -1,6 +1,7 @@
 <template>
     <div>
         <home-plans></home-plans>
+        <v-divider class="ma-10"/>
         <meal-recipes></meal-recipes>
     </div>
 </template>

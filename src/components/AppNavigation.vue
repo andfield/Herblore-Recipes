@@ -5,7 +5,7 @@
                 <template v-for="(item, index) in items">
                     <v-list-tile :key="index">
                         <v-list-tile-content>
-                            <v-btn block="item.route">{{item.title}}</v-btn>
+                            <v-btn block :to="item.route">{{item.title}}</v-btn>
                         </v-list-tile-content>
                     </v-list-tile>
                     <v-divider :key="`divider-${index}`"></v-divider>

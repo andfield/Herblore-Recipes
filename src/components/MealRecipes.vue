@@ -1,5 +1,10 @@
 <template>
     <v-container grid-list-lg>
+        <v-layout row>
+            <v-flex>
+                <div class="display-2 text-xs-center my-5">Top 10 for your Diet</div>
+            </v-flex>
+        </v-layout>
         <v-layout row wrap>
             <v-flex xs12 sm6 md6 lg4 v-for="(item, idx) in recipes" :key="idx">
                 <v-card>
