@@ -38,7 +38,7 @@ export const actions = {
                     app_id: 'a00bad80',
                     app_key: 'a0d09d9fe82fd86c9679043713deefc2	—',
                     from: 0,
-                    to: 9
+                    to: 1
                 }
             });
             commit('setRecipes', response.data.hits);
